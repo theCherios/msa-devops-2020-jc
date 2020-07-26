@@ -6,17 +6,17 @@ function App() {
     return (
         <div className="App">
             <header className="App-header">
-                <img src="https://openmoji.org/data/color/svg/1F532.svg" className="App-logo" alt="logo" />
+                <img src={logo} className="App-logo" alt="logo" />
                 <p>
-                    MSA 2020
+                    Edit <code>src/App.tsx</code> and save to reload.
         </p>
                 <a
                     className="App-link"
-                    href="https://aka.ms/nzmsawebsite"
+                    href="https://reactjs.org"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    MSA website
+                    Learn React
         </a>
             </header>
         </div>
