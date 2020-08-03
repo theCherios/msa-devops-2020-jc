@@ -5,6 +5,7 @@
 
 trigger:
 - master
+- develop
 
 pool:
   vmImage: 'ubuntu-latest'
@@ -25,7 +26,6 @@ steps:
     npm run build
     cd ..
   displayName: 'npm install and build'
-
 - task: ArchiveFiles@2
   inputs:
     rootFolderOrFile: '$(buildDir)'
